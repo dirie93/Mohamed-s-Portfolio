@@ -46,19 +46,20 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link" href="#about-me">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">My Work</a>
+            <a class="nav-link" href="#my-work">My Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact-me">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
+    <!-- About Me section -->
     <div class="container">
-      <div class="about-me">
+      <div id="about-me" class="about-me">
         <h1 class="name">Hi! I'm Mohamed Dirie</h1>
         <h2>About Me</h2>
         <p>
@@ -69,16 +70,39 @@
           visually stunning and functional websites.
         </p>
         <h3>Some Facts</h3>
-        <ul>
-          <li>I am a Spurs Fan</li>
-          <li>I have travelled to 9 countries and still counting</li>
-          <li>My pet kitten is called Cous-Cous</li>
-          <li>I am the eldest of 3 siblings</li>
-          <li>
-            I am an avid reader and have read more than 40 books in the past
-            year.
-          </li>
-        </ul>
+        <div class="facts">
+          <div class="pet">
+            <img
+              src="./assets/images/cous-cous.jpg"
+              alt="my kitten"
+              width="40%"
+            />
+          </div>
+          <ul>
+            <li>I am a Spurs Fan</li>
+            <li>I have travelled to 9 countries and still counting</li>
+            <li>My pet kitten is called Cous-Cous</li>
+            <li>I am the eldest of 3 siblings</li>
+            <li>
+              I am an avid reader and have read more than 40 books in the past
+              year.
+            </li>
+          </ul>
+
+          <div id="my-work" class="work">
+            <h2>Some of my work</h2>
+            <img
+              src="./assets/images/Horiseon.png"
+              alt="project1"
+              width="100%"
+            />
+            <p>
+              In this project, I had to refactor some code on the website
+              primarily the HTML semantic elements as well as adding
+              modifications that would make the UI user-friendly.
+            </p>
+          </div>
+        </div>
       </div>
       <div class="avatar">
         <img
@@ -90,5 +114,18 @@
         />
       </div>
     </div>
+    <footer id="contact-me" class="bg-dark text-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2023 Dirie Portfolio</p>
+          </div>
+          <div class="col-md-6 text-right">
+            <a href="#" class="text-light mr-3">Linkedin</a>
+            <a href="#" class="text-light mr-3">Github</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
