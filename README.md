@@ -12,3 +12,5 @@ SO THAT I can review samples of their work and assess whether they're a good can
 ```
 
 ## Portfolio snippet
+
+![image](https://user-images.githubusercontent.com/128429238/231607155-2d34a7e0-e217-4810-812d-d62cc48a11c3.png)
